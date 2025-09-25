@@ -1,12 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christopher Moore - Contact</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christopher T. Moore — Systems & IT</title>
+  <meta name="description" content="Resume site for Christopher T. Moore — U.S. Navy veteran; systems thinker focused on IT, cybersecurity fundamentals, and operational efficiency." />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --card: #121319;
+      --ink: #e8eaf0;
+      --muted: #9aa3b2;
+      --accent: #5aa7ff;
+      --rule: #1f2330;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, system-ui, sans-serif; line-height: 1.55; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 840px; margin: 0 auto; padding: 40px 20px 80px; }
+    header { display: grid; grid-template-columns: 1fr; gap: 8px; margin-bottom: 28px; }
+    h1 { margin: 0; font-size: 1.9rem; letter-spacing: 0.2px; }
+    .tag { color: var(--muted); font-size: 0.98rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+    .card { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; margin: 16px 0; }
+    h2 { margin: 0 0 6px; font-size: 1.1rem; letter-spacing: 0.2px; text-transform: uppercase; color: #cfd6e6; }
+    .item { padding: 14px 0; border-top: 1px solid var(--rule); }
+    .item:first-of-type { border-top: 0; padding-top: 0; }
+    .role { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; }
+    .org { color: #cfd6e6; }
+    .where, .when { color: var(--muted); font-weight: 500; font-size: 0.95rem; }
+    ul { margin: 8px 0 0 20px; padding: 0; }
+    li { margin: 6px 0; }
+    .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 8px 18px; margin-top: 10px; }
+    .pill { background: #171a22; border: 1px solid var(--rule); border-radius: 999px; padding: 6px 10px; display: inline-block; margin: 6px 6px 0 0; color: #c9d1e5; font-size: 0.95rem; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 0.92rem; }
+    code { background: #0f1117; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--rule); }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f7f8fb; --card:#ffffff; --ink:#0c111b; --muted:#5c667a; --accent:#0451cc; --rule:#e6e9f2; }
+      code { background: #f4f6fb; }
+    }
+  </style>
+  <!-- Structured data for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Christopher T. Moore",
+    "email": "mailto:contact@christophertmoore.com",
+    "url": "https://christophertmoore.com",
+    "sameAs": ["https://github.com/c-moorecode"],
+    "jobTitle": "Systems & IT",
+    "alumniOf": "U.S. Navy (Nuclear Program)"
+  }
+  </script>
 </head>
 <body>
-    <h1>Christopher Moore</h1>
-    <p>Email: <a href="mailto:contact@christophertmoore.com">contact@christophertmoore.com</a></p>
+  <div class="wrap">
+    <header>
+      <h1>Christopher T. Moore</h1>
+      <div class="tag">Thinking in systems. Turning complexity into clarity.</div>
+      <div class="links">
+        <span><strong>Email:</strong> <a href="mailto:contact@christophertmoore.com">contact@christophertmoore.com</a></span>
+        <span>•</span>
+        <span><strong>GitHub:</strong> <a href="https://github.com/c-moorecode" rel="me">github.com/c-moorecode</a></span>
+        <span>•</span>
+        <span class="where">New Jersey, USA</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Profile</h2>
+      <div class="item">
+        U.S. Navy trained Nuclear Electrician’s Mate (E‑4) who enjoys building tidy systems from messy realities. Comfortable on macOS, iOS, and Linux; strong command‑line habits; practical cybersecurity fundamentals; steady operations mindset from Navy schooling and retail floor work.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Core Skills</h2>
+      <div class="skills">
+        <span class="pill">Systems thinking</span>
+        <span class="pill">macOS / iOS administration</span>
+        <span class="pill">Linux CLI & tooling</span>
+        <span class="pill">Git & GitHub workflows</span>
+        <span class="pill">Networking basics (DNS, HTTP, TLS)</span>
+        <span class="pill">Hardware troubleshooting</span>
+        <span class="pill">Scripting (bash, Python basics)</span>
+        <span class="pill">Cybersecurity fundamentals</span>
+        <span class="pill">QuickBooks basics & ops</span>
+        <span class="pill">Customer support & retail ops</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Experience</h2>
+
+      <div class="item">
+        <div class="role">
+          <span class="org">U.S. Navy — Nuclear Program</span>
+          <span class="when">Electrician’s Mate (E‑4) • Nov 2019 – Apr 2021 • Goose Creek, SC</span>
+        </div>
+        <ul>
+          <li>Nuclear Propulsion Plant Operator trainee at NNPTC; completed A‑School.</li>
+          <li>Electrical fundamentals, procedural compliance, and fault isolation under pressure.</li>
+          <li>Logged operations, maintained equipment readiness, and upheld safety discipline.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="role">
+          <span class="org">7‑Eleven — Sales Associate</span>
+          <span class="when">Jun 2021 – Present • Paramus, NJ</span>
+        </div>
+        <ul>
+          <li>Provided tech‑leaning process fixes: flowcharts/system guides to simplify training and reduce errors.</li>
+          <li>Kept store systems running: POS uptime, inventory basics, shift checklists.</li>
+          <li>Handled customer support with clear, direct communication; operated reliably in fast, multi‑tasking shifts.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Education & Training</h2>
+      <div class="item">
+        <div class="role">
+          <span class="org">River Dell Regional High School</span>
+          <span class="when">High School Diploma • Sep 2014 – Jun 2018 • River Edge, NJ</span>
+        </div>
+        <ul>
+          <li>Relevant coursework: AP Computer Science; Computer Systems &amp; Networking; Introduction to Programming; Cyber Security (CPS 155, SUPA); Foundations of Human Behavior (PSY 205, SUPA).</li>
+        </ul>
+      </div>
+      <div class="item">
+        <div class="role">
+          <span class="org">Naval Nuclear Power Training Command (NNPTC)</span>
+          <span class="when">Electrician’s Mate &amp; Nuclear Power Training • Jan 2020 – Mar 2021</span>
+        </div>
+        <ul>
+          <li>Completed A‑School; built discipline in troubleshooting, safety, and technical procedures.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Certifications</h2>
+      <div class="item">
+        <ul>
+          <li>Google Cybersecurity — Coursera (Issued Nov 2023)</li>
+          <li>Google IT Support — Coursera (Issued Sep 2023)</li>
+          <li>Introduction to Data Analytics — Coursera (Issued Jun 2023)</li>
+          <li>Electrician’s Mate — U.S. Navy (Issued Nov 2020)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <div class="item">
+        Email <a href="mailto:contact@christophertmoore.com">contact@christophertmoore.com</a> • GitHub <a href="https://github.com/c-moorecode">c-moorecode</a>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> Christopher T. Moore</div>
+    </footer>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
